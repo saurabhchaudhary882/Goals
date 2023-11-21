@@ -55,22 +55,25 @@ Beyond basic goal management, the API facilitates financial tracking, enabling u
 
 ## Testing
 
-The Goals API undergoes thorough testing using the xUnit testing framework. Test cases cover various scenarios, ensuring the reliability and correctness of the API. Developers are encouraged to run tests regularly to maintain the integrity of the application.
+Test cases cover various scenarios, ensuring the reliability and correctness of the API.
+Developers are encouraged to run tests regularly to maintain application integrity.
 
 ## Deployment
 
-The backend of the Goals API is hosted on Amazon RDS, utilizing PostgreSQL as the database. Automatic updates are in place to ensure the API stays current with the latest features and security patches. Developers can choose between containerization or traditional server hosting for deployment.
+The Goals API backend database is hosted on Amazon RDS, using PostgreSQL as the database Updates Automatic testing is applied to ensure the API is always up to date with the latest feature API and security patches.
+Developers can choose between containerization or traditional server hosting for deployment.
 
 ## Security
 
 Security is a top priority in the Goals API:
 
-- User authentication is enforced for operations accessing sensitive data.
-- Secure transactions are facilitated through HTTPS, encrypting communication between clients and the API.
+- User authentication is enforced for sensitive data accesses.
+- Secure transactions are supported via HTTPS, which encrypts communication between the client and the API.
 
 ## Frontend Integration
 
-A React-based frontend application is under development to complement the Goals API. This frontend will provide users with an intuitive interface for interacting with their goal data.
+UI Integration A React-based UI application is being developed to complement the target API .
+This interface will provide users with an intuitive interface to interact with the data their target
 
 ## Getting Started
 
@@ -78,7 +81,7 @@ To get started with the Goals API, follow these steps:
 
 1. Clone the repository.
 2. Open the solution in Visual Studio.
-3. Set up the database connection in the `ServiceExtensions.cs` file.
+3. Configure the database connection in the `ServiceExtensions.cs` file.
 4. Run the application.
 
 
@@ -88,7 +91,7 @@ For a complete list of API endpoints and their documentation.
 ![image](https://github.com/saurabhchaudhary882/Goals/assets/56185985/3e600d48-0890-40f6-9a5e-f72399dcd49f)
 
 
-## Contributing
+## Contributions
 
 Contributions to the Goals API are welcome!
 
