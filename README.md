@@ -78,23 +78,18 @@ To get started with the Goals API, follow these steps:
 
 1. Clone the repository.
 2. Open the solution in Visual Studio.
-3. Set up the database connection in the `appsettings.json` file.
+3. Set up the database connection in the `ServiceExtensions.cs` file.
 4. Run the application.
 
-For detailed instructions, refer to the [Getting Started Guide](./docs/getting-started.md).
 
 ## API Endpoints
 
-For a complete list of API endpoints and their documentation, refer to the [API Documentation](./docs/api-documentation.md).
+For a complete list of API endpoints and their documentation.
+![image](https://github.com/saurabhchaudhary882/Goals/assets/56185985/3e600d48-0890-40f6-9a5e-f72399dcd49f)
+
 
 ## Contributing
 
-Contributions to the Goals API are welcome! To contribute, follow the [contribution guidelines](./CONTRIBUTING.md).
-
-## License
-
-The Goals API is licensed under the [MIT License](./LICENSE).
+Contributions to the Goals API are welcome!
 
 ---
-
-Feel free to customize this README file based on specific details of your Goals API and your project structure. Include any additional sections or details that would be relevant to your users and contributors.
